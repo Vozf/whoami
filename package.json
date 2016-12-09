@@ -1,14 +1,24 @@
 {
   "name": "whoami",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Vozf",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vozf/whoami.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vozf/whoami/issues"
+  },
+  "homepage": "https://github.com/Vozf/whoami#readme",
+  "description": ""
 }
